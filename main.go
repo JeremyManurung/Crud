@@ -10,5 +10,5 @@ func main(){
 	
 	e := routes.Init()
 
-	e.Logger.Fatal(e.Start(":1234"))
+	e.Logger.Fatal(e.Start(":3000"))
 }
